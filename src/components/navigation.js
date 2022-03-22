@@ -1,19 +1,20 @@
 import * as React from 'react'
 
+import Badge from 'react-bootstrap/Badge'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="dark" variant="dark">
       <Container>
-      <Navbar.Brand href="/">The Bookish Calgarian</Navbar.Brand>
-      <Nav className="me-auto">
-      <Nav.Link href="/books">Book Search</Nav.Link>
+      <Navbar.Brand href="/" className="pe-3"><b>The Bookish Calgarian</b></Navbar.Brand>
+      <Nav className="justify-content-end">
+        <Nav.Link href="/books">Book Search</Nav.Link>
         <Nav.Link href="/wishlist">My Wishlist</Nav.Link>
         <Nav.Link href="/discounts">My Discounts</Nav.Link>
-        <Nav.Link href="/customers">Manage Customers</Nav.Link>
+        <Nav.Link href="/customers">Manage Customers <Badge>Admin</Badge></Nav.Link>
       </Nav>
       </Container>
     </Navbar>
