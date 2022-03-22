@@ -17,17 +17,18 @@ const IndexPage = () => {
 
     <Navbar bg="light" variant="light">
       <Container>
-      <Navbar.Brand href="#">The Bookish Calgarian</Navbar.Brand>
+      <Navbar.Brand href="">The Bookish Calgarian</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#wishlist">My Wishlist</Nav.Link>
-        <Nav.Link href="#discounts">My Discounts</Nav.Link>
+        <Nav.Link href="/wishlist">My Wishlist</Nav.Link>
+        <Nav.Link href="/discounts">My Discounts</Nav.Link>
+        <Nav.Link href="/admin">Admin</Nav.Link>
       </Nav>
       </Container>
     </Navbar>
 
     <br></br>
 
-    <Container className="p-3">
+    <Container className="px-5">
       <Form>
         <Row>
           <Col xs="11">
@@ -38,6 +39,8 @@ const IndexPage = () => {
           <Col xs="1"><Button variant="primary" type="submit">Search</Button></Col>
         </Row>
       </Form>
+
+      <p>(include several book search results here)</p>
     </Container>
     </>
   )
