@@ -1,16 +1,14 @@
 import * as React from "react"
 
 import Container from "react-bootstrap/Container"
+import Layout from "../components/layout"
 
 const NotFoundPage = () => {
   return (
-    <main>
-      <title>Not found</title>
-      <Container className="p-5">
+    <Layout pageTitle="Not Found">
       <h1>Oh snap!</h1>
       <p>There's nothing here! You might have fallen down the wrong rabbit hole.</p>
-      </Container>
-    </main>
+    </Layout>
   )
 }
 
