@@ -8,8 +8,19 @@ import Search from '../components/search'
 const CustomersPage = () => {
   return (
     <Layout pageTitle="Customers">
-    <Search placeholder="Search customers by name or ID."></Search>
-    <p>(insert sample customer information here)</p>
+    <Search placeholder="Search customers by name or ID."/>
+
+    <h1>Search Results</h1>
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">ID</th>
+            </tr>
+          </thead>
+        </table>
+    
+    
     </Layout>
   )
 }

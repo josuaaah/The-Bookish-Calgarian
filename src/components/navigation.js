@@ -11,9 +11,10 @@ const Navigation = () => {
       <Container>
       <Navbar.Brand href="/" className="pe-3"><b>The Bookish Calgarian</b></Navbar.Brand>
       <Nav className="justify-content-end">
-        <Nav.Link href="/books">Book Search</Nav.Link>
+        <Nav.Link href="/books">Search Books</Nav.Link>
         <Nav.Link href="/wishlist">My Wishlist</Nav.Link>
         <Nav.Link href="/discounts">My Discounts</Nav.Link>
+        <Nav.Link href="/sell">Sell Books</Nav.Link>
         <Nav.Link href="/customers">Manage Customers <Badge>Admin</Badge></Nav.Link>
       </Nav>
       </Container>
