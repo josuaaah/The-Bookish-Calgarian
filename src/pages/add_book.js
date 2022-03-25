@@ -98,6 +98,9 @@ const AddBookPage = ({ placeholder }) => {
                     <option value="Russian">Russian</option>
                 </Form.Select>
 
+                <Form.Label>Shelf</Form.Label>
+                <Form.Control type="text" placeholder="Shelf ID" />
+
                 <Form.Label>Stock</Form.Label>
                 <Form.Control type="number" placeholder="Stock"/>
 

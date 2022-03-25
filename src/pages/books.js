@@ -26,7 +26,8 @@ const BooksPage = () => {
               <th scope="col">Publication Date</th>
               <th scope="col">Language</th>
               <th scope="col">Genre</th>
-              <th scope="col">Availability</th>
+              <th scope="col">Bookstore Name</th>
+              <th scope="col">Shelf</th>
             </tr>
             <tr>
               <th scope="row">1</th>
@@ -39,7 +40,8 @@ const BooksPage = () => {
               <td>04/10/1925</td>
               <td>English</td>
               <td>Historical Fiction</td>
-              <td>In Stock</td>
+              <td>Books Between Friends</td>
+              <td>ML<br/>324<br/>.C54</td>
             </tr>
           </thead>
         </table>
