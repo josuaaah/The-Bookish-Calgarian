@@ -25,6 +25,7 @@ const SellPage = ({ placeholder }) => {
                     <th scope="col">Publication Date</th>
                     <th scope="col">Language</th>
                     <th scope="col">Genre</th>
+                    <th scope="col">Shelf</th>
                     <th scope="col">Stock</th>
                 </tr>
                 <tr>
@@ -38,6 +39,7 @@ const SellPage = ({ placeholder }) => {
                     <td>04/10/1925</td>
                     <td>English</td>
                     <td>Historical Fiction</td>
+                    <td>ML<br/>324<br/>.C54</td>
                     <td>3</td>
                 </tr>
             </thead>
