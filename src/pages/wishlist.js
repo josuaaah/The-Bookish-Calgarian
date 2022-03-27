@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 const WishlistPage = () => {
   return (
     <Layout pageTitle="My Wishlist">
-    <h1 class="text-center">My Wishlist</h1>
+    <h1 class="text-center display-4">My Wishlist</h1>
     <br></br>
     <table class="table table-sm">
       <thead>
@@ -31,7 +31,10 @@ const WishlistPage = () => {
           <td>English</td>
           <td>Science Fiction</td>
           <td class="text-success"><b>15 available</b></td>
-          <td><a href="#" class="text-danger">Delete</a></td>
+          <td>
+            <button href="#" className="btn btn-success btn-sm">Edit</button>
+            <button href="#" className="btn btn-danger btn-sm mx-1">Delete</button>
+          </td>
         </tr>
         <tr>
           <th scope="row">2</th>
@@ -42,7 +45,10 @@ const WishlistPage = () => {
           <td>English</td>
           <td>Young Adult Fiction</td>
           <td>0 available</td>
-          <td><a href="#" class="text-danger">Delete</a></td>
+          <td>
+            <button href="#" className="btn btn-success btn-sm">Edit</button>
+            <button href="#" className="btn btn-danger btn-sm mx-1">Delete</button>
+          </td>
         </tr>
         <tr>
           <th scope="row">3</th>
@@ -53,7 +59,10 @@ const WishlistPage = () => {
           <td>English</td>
           <td>Computer Science</td>
           <td>0 available</td>
-          <td><a href="#" class="text-danger">Delete</a></td>
+          <td>
+            <button href="#" className="btn btn-success btn-sm">Edit</button>
+            <button href="#" className="btn btn-danger btn-sm mx-1">Delete</button>
+          </td>
         </tr>
       </thead>
     </table>

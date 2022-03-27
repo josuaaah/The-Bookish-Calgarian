@@ -7,7 +7,18 @@ import Layout from "../components/layout"
 const IndexPage = () => {
   return (
     <Layout pageTitle="The Bookish Calgarian">
-    <p>(design the site cover page here!)</p>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h1 class="text-center display-1">Welcome to The Bookish Calgarian.</h1>
+      <p class="text-center lead">Find an affordable book today.</p>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </Layout>
   )
 }

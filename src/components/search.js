@@ -16,7 +16,7 @@ const Search = ({placeholder}) => {
             <button type="button" class="btn btn-primary">Search</button>
           </Col>
         </Row>
-      </Form.Group>     
+      </Form.Group>
     </Form>
   )
 }

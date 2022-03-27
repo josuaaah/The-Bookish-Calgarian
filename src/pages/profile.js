@@ -8,7 +8,8 @@ import Layout from "../components/layout"
 const ProfilePage = () => {
   return (
     <Layout pageTitle="My Profile">
-    <p>According to your purchase and sales history, you are eligible for <b>ten</b> remaining discounts!</p>
+    <h1 class="text-center display-4">My Profile</h1>
+    <p>According to your purchase and sales history, you are eligible for <b>9</b> remaining discounts!</p>
 
     <h3>My Discounts</h3>
     <Col xs="4">

@@ -14,8 +14,8 @@ const Navigation = () => {
         <Nav.Link href="/books">Search Books</Nav.Link>
         <Nav.Link href="/wishlist">My Wishlist</Nav.Link>
         <Nav.Link href="/profile">My Profile</Nav.Link>
-        <Nav.Link href="/store">My Store <Badge>Admin</Badge></Nav.Link>
-        <Nav.Link href="/customers">Manage Customers <Badge>Admin</Badge></Nav.Link>
+        <Nav.Link href="/sell">Sell Books</Nav.Link>
+        <Nav.Link href="/customers">Search Customers <Badge>Admin</Badge></Nav.Link>
       </Nav>
       </Container>
     </Navbar>
