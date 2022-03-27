@@ -2,9 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import * as React from "react"
 
-import Layout from "../components/layout"
 import Form from "react-bootstrap/Form"
-import Button from "react-bootstrap/Button"
+import Layout from "../components/layout"
 
 const AddBookPage = ({ placeholder }) => {
     return (
