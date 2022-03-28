@@ -10,3 +10,6 @@
 1. Run on a Terminal ```cd the-bookish-calgarian/BookstoreApi``` and then ```dotnet run```.
 2. Open backend development server with https://localhost:7274 using a browser.
 3. Please push all your commits to the ```backend``` branch.
+
+### Useful Resources
+- [ASP.NET core Web API tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
