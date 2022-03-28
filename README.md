@@ -12,4 +12,4 @@
 3. Please push all your commits to the ```backend``` branch.
 
 ### Useful Resources
-- [ASP.NET core Web API tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
+- [ASP.NET Core minimum Web API tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api)
