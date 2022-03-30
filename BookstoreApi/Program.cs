@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using BookstoreApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BookstoreDb>(opt => opt.UseInMemoryDatabase("BookstoreApi"));
@@ -55,26 +56,3 @@ app.MapDelete("/books/{id}", async (int id, BookstoreDb db) =>
 });
 
 app.Run();
-
-class Book
-{
-    public int BookId { get; set; }
-    public string? Title { get; set; }
-    public float Price { get; set; }
-    public long Isbn  { get; set; }
-    public string? Author { get; set; }
-    public string? Quality { get; set; }
-    public string? Publication_date { get; set; }
-    public string? Language { get; set; }
-    public string? Genre { get; set; }
-    public string? Bookstore { get; set; }
-    public string? Shelf { get; set; }
-}
-
-class BookstoreDb : DbContext
-{
-    public BookstoreDb(DbContextOptions<BookstoreDb> options)
-        : base(options) { }
-
-    public DbSet<Book> Books => Set<Book>();
-}
