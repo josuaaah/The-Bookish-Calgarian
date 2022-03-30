@@ -13,3 +13,4 @@
 
 ### Useful Resources
 - [ASP.NET Core minimum Web API tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api)
+- [Minimal API using multiple files](https://stackoverflow.com/questions/70139392/minimal-api-in-net-6-using-multiple-files)
