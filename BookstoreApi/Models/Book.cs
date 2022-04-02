@@ -14,5 +14,4 @@ namespace BookstoreApi.Models
     public string? Bookstore { get; set; }
     public string? Shelf { get; set; }
   }
-
 }

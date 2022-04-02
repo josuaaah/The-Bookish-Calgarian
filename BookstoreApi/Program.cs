@@ -9,4 +9,5 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 app.MapGet("/", () => "Welcome to The Bookish Calgarian.");
 app.MapBookEndpoints();
+app.MapCustomerEndpoints();
 app.Run();

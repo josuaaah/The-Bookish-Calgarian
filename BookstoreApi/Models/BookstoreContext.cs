@@ -9,5 +9,6 @@ namespace BookstoreApi.Models
       : base(options) { }
 
     public DbSet<Book> Books => Set<Book>();
+    public DbSet<Customer> Customers => Set<Customer>();
   }
 }
