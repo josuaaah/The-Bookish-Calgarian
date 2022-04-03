@@ -11,5 +11,6 @@ namespace BookstoreApi.Models
     public DbSet<Book> Books => Set<Book>();
     public DbSet<Customer> Customers => Set<Customer>();
     public DbSet<Discount> Discounts => Set<Discount>();
+    public DbSet<Wish> Wishes => Set<Wish>();
   }
 }
